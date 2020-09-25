@@ -1,51 +1,84 @@
 /* Finch and Flame Styles for premium content /=*/
 #subscribernator5000 {
-                border-top:2px solid black;
-                background-color: white;
-                position: fixed; 
-                bottom: -500px; 
-                height:75vh;
-                width: 100%; 
-                transition: bottom 0.5s; 
-	z-index:9999
+	border-top:2px solid rgba(0,0,0,0.3);
+	background-color: white;
+	position: fixed; 
+	bottom: -500px; 
+	height:45vh;
+	width: 100%; 
+	transition: bottom 0.5s; 
+z-index:9998
 }
 
 .subbex{
-	margin:40px auto;
+margin:40px auto;
 }
 .subbex h2{
-	text-align:center;
+text-align:center;
+font-size:1.5rem;
 }
 .subbex h5{
-	color:rgba(10,10,10,0.7);
-	text-align:center;
+color:rgba(10,10,10,0.7);
+text-align:center;
 }
-.subbex img{max-width:40%}
+.subbex p{
+text-align:center;
+display:block;
+margin:0 auto;
+color:rgba(10,10,10,0.7)!important;
+}
+p.support{
+margin-top:-20px!important
+}
+.subbex .support a{
+font-size:0.8rem;
+text-decoration:underline;color:rgba(10,10,10,0.7)!important;
+}
+.subbex img{max-width:12%; display:block;text-align:center;margin:10px auto}
 .subbex h4{
-	font-size:1rem!important
+font-size:1rem!important
 }
 .subbex h3{
-	font-size:1rem!important
+font-size:1rem!important
 }
 .subbex .pricing_sub_title{
-	margin-bottom:10px!important;
+margin-bottom:10px!important;
 }
 .freezeme{ 
-    height: 100%; 
-    overflow: hidden; 
+height: 100%; 
+overflow: hidden; 
 } 
+/* #mobsubz{
+display:none;
+
+} */
 #mobsubz{
-		display:none;
-	
+display:block;
+width: 20%;
+margin: 20px auto;
 }
-	
+
 @media only screen and (max-width:1280px) {
-	.thb-pricing-table{
-		display:none;
-	}
-	#mobsubz{
-		display:block;
-		width: 75%;
-    margin: 20px auto;
-	}
+.thb-pricing-table{
+display:none;
+}
+#mobsubz{
+display:block;
+width: 75%;
+margin: 20px auto;
+}
+}
+.post-template-default .fixed-article-shares a{
+background:black;
+color:white;
+padding:5px;
+border-radius:5px;
+font-size:0.8rem;
+}
+.post-template-default .fixed-article-shares a:hover{
+background:#ff3254;
+color:white;
+padding:5px;
+border-radius:5px;
+font-size:0.8rem;
 }
